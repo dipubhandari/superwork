@@ -13,6 +13,7 @@ const Header = () => {
                 <Link href='/foods' className={styles.menulink}>Portfolio</Link>
                 <Link href='/orders' className={styles.menulink}> Blog</Link>
                 <Link href='/about' className={styles.menulink}>About</Link>
+                <Link href='/contact' className={styles.menulink}>Contact</Link>
                 <Link href='/cart' className={styles.menulink}>Dashboard</Link>
             </ul>
         </header>
