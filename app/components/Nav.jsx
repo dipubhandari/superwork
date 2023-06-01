@@ -1,15 +1,22 @@
 import React from 'react'
-import styles from '../page.module.css'
-const Nav = () => {
+import Link from 'next/link';
+import styles from '../../styles/nav.module.css'
+import Image from 'next/image';
+import logo from 'public/logo.png'
+
+const Header = () => {
     return (
-        <>
-            <div className={styles.texts}>
-                <h1 className="heading">Better Ddesign for your digital products.</h1>
-                <p className="paragra">Turning your idea into reality.We bring together the teams from the global tech indeustry.</p>
-                <button>See Our Works</button>
-            </div>
-        </>
+        <header className={styles.header}>
+            <h1 className={styles.logo}><Image src={logo} width={101} height={101} /></h1>
+            <ul className={styles.menu}>
+                <Link href='/' className={styles.menulink}>Home</Link>
+                <Link href='/foods' className={styles.menulink}>Portfolio</Link>
+                <Link href='/orders' className={styles.menulink}> Blog</Link>
+                <Link href='/contact' className={styles.menulink}>About</Link>
+                <Link href='/cart' className={styles.menulink}>Dashboard</Link>
+            </ul>
+        </header>
     )
 }
 
-export default Nav
+export default Header

@@ -1,0 +1,35 @@
+.header {
+    color: rgb(14, 14, 14);
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 50px;
+}
+
+.menuLink {
+    text-decoration: none;
+    color: rgb(127, 133, 121);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menuLink:hover {
+    background-color: lightgray;
+}
+
+.logo {
+    flex: 1;
+    display: grid;
+    color: rgb(255, 153, 0);
+    place-items: center;
+}
