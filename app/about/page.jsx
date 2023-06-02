@@ -27,6 +27,41 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div class={styles.column}>
+          <div class={styles.card}>
+            <Image height={100} width={100} src={Leader} alt="Jane" />
+            <div class={styles.container}>
+              <h2>Jane Doe</h2>
+              <p class={styles.title}>CEO & Founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>jane@example.com</p>
+              <p><button class={styles.button}>Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class={styles.column}>
+          <div class={styles.card}>
+            <Image height={100} width={100} src={Leader} alt="Jane" />
+            <div class={styles.container}>
+              <h2>Jane Doe</h2>
+              <p class={styles.title}>CEO & Founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>jane@example.com</p>
+              <p><button class={styles.button}>Contact</button></p>
+            </div>
+          </div>
+        </div>        <div class={styles.column}>
+          <div class={styles.card}>
+            <Image height={100} width={100} src={Leader} alt="Jane" />
+            <div class={styles.container}>
+              <h2>Jane Doe</h2>
+              <p class={styles.title}>CEO & Founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>jane@example.com</p>
+              <p><button class={styles.button}>Contact</button></p>
+            </div>
+          </div>
+        </div>
 
         <div class={styles.column}>
           <div class={styles.card} >

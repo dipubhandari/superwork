@@ -10,7 +10,7 @@ const Header = () => {
             <h1 className={styles.logo}><Image src={logo} width={101} height={101} /></h1>
             <ul className={styles.menu}>
                 <Link href='/' className={styles.menulink}>Home</Link>
-                <Link href='/portfolio' className={styles.menulink}>Portfolio</Link>
+                <Link href='/foods' className={styles.menulink}>Portfolio</Link>
                 <Link href='/orders' className={styles.menulink}> Blog</Link>
                 <Link href='/about' className={styles.menulink}>About</Link>
                 <Link href='/contact' className={styles.menulink}>Contact</Link>
