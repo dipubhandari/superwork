@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import MainImage from 'public/iot.png'
-import styles from '../../styles/hero.module.css'
+import styles from '../styles/hero.module.css'
 
 const Hero = () => {
     return (

@@ -1,0 +1,65 @@
+.our_works {
+    min-height: 100vh;
+    margin: 100px 200px;
+}
+
+.heading {
+    color: rgb(41, 41, 40);
+    font-size: 60px;
+    font-family: serif;
+}
+
+.work_first {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.sec_row {
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.art_name {
+    color: rgb(250, 212, 17);
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left_section {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(103, 252, 17);
+    border: none;
+}
+
+.right_section {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.art_img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
